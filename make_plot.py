@@ -4,6 +4,12 @@ import os
 from astropy.io import fits
 import glob
 
+"""
+created: 5 Nov 2023
+-------------------
+Creates plot of fits data
+"""
+
 data = fits.getdata('/Users/bostroem/Desktop/images/hubble_img.fits')
 col1 = data[20, :]
 col2 = data[200, :]
